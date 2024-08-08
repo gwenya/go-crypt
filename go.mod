@@ -1,4 +1,4 @@
-module github.com/go-crypt/crypt
+module github.com/gwenya/go-crypt
 
 go 1.22
 
