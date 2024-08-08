@@ -5,16 +5,16 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/go-crypt/crypt/algorithm"
-	"github.com/go-crypt/crypt/algorithm/argon2"
-	"github.com/go-crypt/crypt/algorithm/bcrypt"
-	"github.com/go-crypt/crypt/algorithm/md5crypt"
-	"github.com/go-crypt/crypt/algorithm/pbkdf2"
-	"github.com/go-crypt/crypt/algorithm/plaintext"
-	"github.com/go-crypt/crypt/algorithm/scrypt"
-	"github.com/go-crypt/crypt/algorithm/sha1crypt"
-	"github.com/go-crypt/crypt/algorithm/shacrypt"
-	"github.com/go-crypt/crypt/internal/encoding"
+	"github.com/gwenya/go-crypt/algorithm"
+	"github.com/gwenya/go-crypt/algorithm/argon2"
+	"github.com/gwenya/go-crypt/algorithm/bcrypt"
+	"github.com/gwenya/go-crypt/algorithm/md5crypt"
+	"github.com/gwenya/go-crypt/algorithm/pbkdf2"
+	"github.com/gwenya/go-crypt/algorithm/plaintext"
+	"github.com/gwenya/go-crypt/algorithm/scrypt"
+	"github.com/gwenya/go-crypt/algorithm/sha1crypt"
+	"github.com/gwenya/go-crypt/algorithm/shacrypt"
+	"github.com/gwenya/go-crypt/internal/encoding"
 )
 
 // NewDecoder returns a new empty *Decoder.

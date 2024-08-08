@@ -1,7 +1,7 @@
 package crypt
 
 import (
-	"github.com/go-crypt/crypt/algorithm"
+	"github.com/gwenya/go-crypt/algorithm"
 )
 
 // The global Decoder. This is utilized by the Decode function.

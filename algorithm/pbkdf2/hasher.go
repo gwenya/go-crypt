@@ -5,8 +5,8 @@ import (
 
 	"github.com/go-crypt/x/pbkdf2"
 
-	"github.com/go-crypt/crypt/algorithm"
-	"github.com/go-crypt/crypt/internal/random"
+	"github.com/gwenya/go-crypt/algorithm"
+	"github.com/gwenya/go-crypt/internal/random"
 )
 
 // New returns a *pbkdf2.Hasher with the additional opts applied if any.

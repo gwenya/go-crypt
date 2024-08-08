@@ -5,8 +5,8 @@ import (
 
 	"github.com/go-crypt/x/bcrypt"
 
-	"github.com/go-crypt/crypt/algorithm"
-	"github.com/go-crypt/crypt/internal/random"
+	"github.com/gwenya/go-crypt/algorithm"
+	"github.com/gwenya/go-crypt/internal/random"
 )
 
 // New returns a new bcrypt.Hasher with the provided functional options applied.

@@ -6,8 +6,8 @@ import (
 
 	"github.com/go-crypt/x/scrypt"
 
-	"github.com/go-crypt/crypt/algorithm"
-	"github.com/go-crypt/crypt/internal/random"
+	"github.com/gwenya/go-crypt/algorithm"
+	"github.com/gwenya/go-crypt/internal/random"
 )
 
 // scrypt RFC7914: https://www.rfc-editor.org/rfc/rfc7914.html.

@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/go-crypt/crypt/algorithm"
-	"github.com/go-crypt/crypt/internal/encoding"
+	"github.com/gwenya/go-crypt/algorithm"
+	"github.com/gwenya/go-crypt/internal/encoding"
 )
 
 // RegisterDecoder the decoder with the algorithm.DecoderRegister.

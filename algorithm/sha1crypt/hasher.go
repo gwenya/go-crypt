@@ -5,8 +5,8 @@ import (
 
 	"github.com/go-crypt/x/crypt"
 
-	"github.com/go-crypt/crypt/algorithm"
-	"github.com/go-crypt/crypt/internal/random"
+	"github.com/gwenya/go-crypt/algorithm"
+	"github.com/gwenya/go-crypt/internal/random"
 )
 
 // New returns a *sha1crypt.Hasher with the additional opts applied if any.

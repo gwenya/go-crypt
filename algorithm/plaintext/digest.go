@@ -4,7 +4,7 @@ import (
 	"crypto/subtle"
 	"fmt"
 
-	"github.com/go-crypt/crypt/algorithm"
+	"github.com/gwenya/go-crypt/algorithm"
 )
 
 // NewDigest creates a new plaintext.Digest using the plaintext.Variant.

@@ -7,7 +7,7 @@ import (
 
 	xcrypt "github.com/go-crypt/x/crypt"
 
-	"github.com/go-crypt/crypt/algorithm"
+	"github.com/gwenya/go-crypt/algorithm"
 )
 
 // Digest is a digest which handles SHA-crypt hashes like SHA256 or SHA512.

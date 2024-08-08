@@ -6,7 +6,7 @@ import (
 
 	"github.com/go-crypt/x/bcrypt"
 
-	"github.com/go-crypt/crypt/algorithm"
+	"github.com/gwenya/go-crypt/algorithm"
 )
 
 // Digest is a digest which handles bcrypt hashes.

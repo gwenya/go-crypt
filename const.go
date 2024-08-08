@@ -1,7 +1,7 @@
 package crypt
 
 import (
-	"github.com/go-crypt/crypt/internal/encoding"
+	"github.com/gwenya/go-crypt/internal/encoding"
 )
 
 const (

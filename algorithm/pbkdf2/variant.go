@@ -5,7 +5,7 @@ import (
 	"crypto/sha256"
 	"crypto/sha512"
 
-	"github.com/go-crypt/crypt/algorithm"
+	"github.com/gwenya/go-crypt/algorithm"
 )
 
 // NewVariant converts an identifier string to a pbkdf2.Variant.

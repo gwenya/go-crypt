@@ -1,7 +1,7 @@
 package bcrypt
 
 import (
-	"github.com/go-crypt/crypt/algorithm"
+	"github.com/gwenya/go-crypt/algorithm"
 )
 
 const (

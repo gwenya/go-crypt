@@ -7,7 +7,7 @@ import (
 
 	"github.com/go-crypt/x/scrypt"
 
-	"github.com/go-crypt/crypt/algorithm"
+	"github.com/gwenya/go-crypt/algorithm"
 )
 
 // Digest is a scrypt.Digest which handles scrypt hashes.

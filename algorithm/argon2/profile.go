@@ -1,7 +1,7 @@
 package argon2
 
 import (
-	"github.com/go-crypt/crypt/algorithm"
+	"github.com/gwenya/go-crypt/algorithm"
 )
 
 // Profile represents a hashing profile for Argon2Hash.

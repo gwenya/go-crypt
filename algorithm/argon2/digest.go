@@ -8,8 +8,8 @@ import (
 
 	"github.com/go-crypt/x/argon2"
 
-	"github.com/go-crypt/crypt/algorithm"
-	"github.com/go-crypt/crypt/internal/math"
+	"github.com/gwenya/go-crypt/algorithm"
+	"github.com/gwenya/go-crypt/internal/math"
 )
 
 // Digest is a digest which handles Argon2 hashes like Argon2id, Argon2i, and Argon2d.

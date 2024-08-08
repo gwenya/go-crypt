@@ -3,7 +3,7 @@ package sha1crypt
 import (
 	"fmt"
 
-	"github.com/go-crypt/crypt/algorithm"
+	"github.com/gwenya/go-crypt/algorithm"
 )
 
 // Opt describes the functional option pattern for the sha1crypt.Hasher.

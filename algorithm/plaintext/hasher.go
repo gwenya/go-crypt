@@ -1,7 +1,7 @@
 package plaintext
 
 import (
-	"github.com/go-crypt/crypt/algorithm"
+	"github.com/gwenya/go-crypt/algorithm"
 )
 
 // New returns a *plaintext.Hasher without any settings configured.

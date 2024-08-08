@@ -3,8 +3,8 @@ package argon2
 import (
 	"fmt"
 
-	"github.com/go-crypt/crypt/algorithm"
-	"github.com/go-crypt/crypt/internal/random"
+	"github.com/gwenya/go-crypt/algorithm"
+	"github.com/gwenya/go-crypt/internal/random"
 )
 
 // New returns a new argon2.Hasher with the provided functional options applied.

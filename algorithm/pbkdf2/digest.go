@@ -6,8 +6,8 @@ import (
 
 	"github.com/go-crypt/x/pbkdf2"
 
-	"github.com/go-crypt/crypt/algorithm"
-	"github.com/go-crypt/crypt/internal/encoding"
+	"github.com/gwenya/go-crypt/algorithm"
+	"github.com/gwenya/go-crypt/internal/encoding"
 )
 
 // Digest is a pbkdf2.Digest which handles PBKDF2 hashes.

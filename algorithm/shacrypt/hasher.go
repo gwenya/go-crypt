@@ -5,8 +5,8 @@ import (
 
 	xcrypt "github.com/go-crypt/x/crypt"
 
-	"github.com/go-crypt/crypt/algorithm"
-	"github.com/go-crypt/crypt/internal/random"
+	"github.com/gwenya/go-crypt/algorithm"
+	"github.com/gwenya/go-crypt/internal/random"
 )
 
 // New returns a *Hasher without any settings configured. This d to a SHA512 hash.Hash

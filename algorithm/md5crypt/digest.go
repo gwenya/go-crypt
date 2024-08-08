@@ -6,7 +6,7 @@ import (
 
 	"github.com/go-crypt/x/crypt"
 
-	"github.com/go-crypt/crypt/algorithm"
+	"github.com/gwenya/go-crypt/algorithm"
 )
 
 // Digest is a algorithm.Digest which handles md5crypt hashes.
