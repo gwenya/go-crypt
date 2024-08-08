@@ -76,3 +76,19 @@ func (d *Digest) defaults() {
 		d.iterations = IterationsDefault
 	}
 }
+
+func (d *Digest) Variant() Variant {
+	return d.variant
+}
+
+func (d *Digest) Iterations() int {
+	return d.iterations
+}
+
+func (d *Digest) Salt() []byte {
+	return d.salt
+}
+
+func (d *Digest) Key() []byte {
+	return d.key
+}

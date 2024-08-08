@@ -83,3 +83,23 @@ func (d *Digest) defaults() {
 		d.p = ParallelismDefault
 	}
 }
+
+func (d *Digest) LN() int {
+	return d.ln
+}
+
+func (d *Digest) R() int {
+	return d.r
+}
+
+func (d *Digest) P() int {
+	return d.p
+}
+
+func (d *Digest) Salt() []byte {
+	return d.salt
+}
+
+func (d *Digest) Key() []byte {
+	return d.key
+}

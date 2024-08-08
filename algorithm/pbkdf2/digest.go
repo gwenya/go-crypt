@@ -75,3 +75,23 @@ func (d *Digest) defaults() {
 		d.t = d.variant.HashFunc()().Size()
 	}
 }
+
+func (d *Digest) Variant() Variant {
+	return d.variant
+}
+
+func (d *Digest) Iterations() int {
+	return d.iterations
+}
+
+func (d *Digest) T() int {
+	return d.t
+}
+
+func (d *Digest) Salt() []byte {
+	return d.salt
+}
+
+func (d *Digest) Key() []byte {
+	return d.key
+}

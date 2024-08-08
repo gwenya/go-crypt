@@ -93,3 +93,31 @@ func (d *Digest) defaults() {
 
 	d.m = math.Uint32RoundDownToNearestMultiple(d.m, pM)
 }
+
+func (d *Digest) Variant() Variant {
+	return d.variant
+}
+
+func (d *Digest) V() uint8 {
+	return d.v
+}
+
+func (d *Digest) M() uint32 {
+	return d.m
+}
+
+func (d *Digest) T() uint32 {
+	return d.t
+}
+
+func (d *Digest) P() uint32 {
+	return d.p
+}
+
+func (d *Digest) Salt() []byte {
+	return d.salt
+}
+
+func (d *Digest) Key() []byte {
+	return d.key
+}

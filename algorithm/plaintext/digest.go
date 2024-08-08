@@ -83,8 +83,10 @@ func (d *Digest) defaults() {
 	}
 }
 
-// Key returns the raw plaintext key which can be used in situations where the plaintext value is required such as
-// validating JWT's signed by HMAC-SHA256.
+func (d *Digest) Variant() Variant {
+	return d.variant
+}
+
 func (d *Digest) Key() []byte {
 	return d.key
 }
